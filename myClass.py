@@ -8,8 +8,8 @@ driver.get("https://myclass.lpu.in/")
 user_id = driver.find_element_by_name("i")
 user_pass = driver.find_element_by_name("p")
 
-user_id.send_keys("11903648")
-user_pass.send_keys("Abhi1@")
+user_id.send_keys("Reg_no")
+user_pass.send_keys("Password")
 user_pass.submit()
 
 driver.implicitly_wait(10)
